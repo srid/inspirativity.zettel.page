@@ -4,7 +4,7 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Inspirativity
+    Shops – Inspirativity
   </title>
   
     
@@ -74,6 +74,25 @@
     <div class='container mx-auto'>
 
       
+  <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
+    <div class='flex justify-left'>
+      <div class='w-full px-2 py-2 bg-gray-50'>
+        <ul class='flex flex-wrap text-lg'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                Inspirativity
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
       <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
         <!-- Sidebar column -->
@@ -234,9 +253,7 @@
             
               <!-- Variable bindings for this tree-->
   
-    
   
-
 
 
   
@@ -248,26 +265,61 @@
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
-        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='Shops' href='Shops'>
+    <a class='font-bold text-pink-600 hover:underline truncate' title='Shops' href='Shops'>
       Shops
     </a>
     
       
-        <span class='text-gray-300' title='1 children inside'>
-          1
-        </span>
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
+    
+  
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='IGA' href='iga'>
+      IGA
+    </a>
+    
       
+        
     
   </div>
 
   <!-- Node's children forest, displayed only on active trees
     TODO: Use <details> to toggle visibility?
   -->
+  
+</div>
+    
   
 </div>
             
@@ -319,19 +371,15 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-pink-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Inspirativity
+    Shops
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  
-    <p class='mb-3'>
-      Use coffee to boost <em>inspirativity</em> (inspiration + creativity).
-    </p>
   <nav>
   <div class='mb-8'>
     <header class='pb-2 mb-2 font-semibold text-gray-600'>
-      Pages matching path 'Journal/*/*/*'
+      Pages matching path './*'
     </header>
     
       <div class='flex flex-wrap my-2'>
@@ -339,13 +387,17 @@
           <span class='mr-2 text-right text-gray-600'>
           </span>
         
-        <a class='flex-1 text-pink-600 font-bold border-l-2 pl-2 hover:underline' href='Journal/2021/08/2021-08-29'>
-          2021-08-29
+        <a class='flex-1 text-pink-600 font-bold border-l-2 pl-2 hover:underline' href='iga'>
+          IGA
         </a>
       </div>
     
   </div>
-</nav>
+</nav><div class='text-gray-400 border-t-2 inline-block pt-0.5'>
+    <p class='mb-3'>
+      Note: To override the auto-generated content here, create a file named: <span class='font-mono text-sm'>Shops.md</span>
+    </p>
+  </div>
 </article>
             
             
