@@ -8,17 +8,30 @@
     "workbench.editor.revealIfOpen": true,
     // For those that use daily notes, via vscode-memo extension
     "autoSnippet.snippets": [
-    
         {
             "pattern": "**/\\d{4}-\\d{2}-\\d{2}.md",
             "snippet": "daily",
         }
     ],
-    "editor.formatOnSave": true,
+    // This is necessary in case the notebook is not stored in a Git repo.
+    "files.exclude": {
+        ".neuron/**": true
+    },
+    "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+    "window.zoomLevel": 0,
     "editor.wordWrap": "on",
+    "markdown.extension.toc.updateOnSave": false,
     "files.autoSaveDelay": 500,
-    "pasteImage.insertPattern": "![[${imageFilePath}]]"
+    "files.associations": {
+        "*.tpl": "html"
+    },
+    // To have ${folder.md} appear alongside ${folder}/
+    "explorer.sortOrder": "mixed",
+    "pasteImage.insertPattern": "![[${imageFilePath}]]",
     // If use Git, these might be interesting:
-    // "git.autofetch": true,
+    "git.autofetch": true,
+    "editor.tabSize": 2,
+    "workbench.tree.indent": 16,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     // "git.postCommitCommand": "push"
 }

@@ -1,5 +1,9 @@
-# Emanote Template
+# Inspirativity
 
-A git repo for you to get started with [Emanote], with GitHub Pages deployment. See [[README|README]].
+Use coffee to boost *inspirativity* (inspiration + creativity).
 
-[Emanote]: https://note.ema.srid.ca/
+
+```query
+path:Journal/*/*/*
+```
+

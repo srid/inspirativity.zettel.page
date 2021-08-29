@@ -4,10 +4,16 @@
 	"recommendations": [
 		"yzhang.markdown-all-in-one",
 		"svsool.markdown-memo",
+		"gruntfuggly.auto-snippet",
 		"bierner.markdown-checkbox",
 		"houkanshan.vscode-markdown-footnote",
+		"arrterian.nix-env-selector",
+		"benspaulding.procfile",
+		"tootone.org-mode",
+		"bierner.markdown-emoji",
 		"bierner.emojisense",
+		"mark-hansen.hledger-vscode",
 		"mdickin.markdown-shortcuts",
-		"mushan.vscode-paste-image"
+		"takumii.markdowntable"
 	]
 }
