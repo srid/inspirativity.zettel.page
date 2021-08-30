@@ -1,7 +1,6 @@
 # Inspirativity
 
-Use coffee to boost *inspirativity* (inspiration + creativity).
-
+Coffee log:
 
 ```query
 path:Journal/*/*/*
