@@ -1,6 +1,6 @@
 # Inspirativity
 
-Log of my attempts to make *good coffee* (no dairy, nothing added):
+Just a log of my attempts to make *good coffee* (black; no dairy, nothing added):
 
 ```query
 path:Journal/*/*/*
