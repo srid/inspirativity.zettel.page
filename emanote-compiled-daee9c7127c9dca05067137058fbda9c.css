@@ -61,12 +61,12 @@ html {
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   line-height: 1.5;
 }
-h1 {
+h1, p {
   margin: 0;
+}
+h1 {
   font-size: inherit;
   font-weight: inherit;
-}
-h1, p {
   margin: 0;
 }
 img {
@@ -151,11 +151,7 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(252, 231, 243, var(--tw-bg-opacity));
 }
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-.hover\:bg-pink-50:hover {
+.bg-pink-50 {
   --tw-bg-opacity: 1;
   background-color: rgba(253, 242, 248, var(--tw-bg-opacity));
 }
@@ -166,6 +162,14 @@ ul {
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
+}
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.hover\:bg-pink-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(253, 242, 248, var(--tw-bg-opacity));
 }
 .bg-gray-200 {
   --tw-bg-opacity: 1;
@@ -277,6 +281,9 @@ ul {
 .font-semibold {
   font-weight: 600;
 }
+.font-light {
+  font-weight: 300;
+}
 .h-5 {
   height: 1.25rem;
 }
@@ -321,16 +328,19 @@ ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -344,17 +354,14 @@ ul {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
 .mr-2 {
   margin-right: 0.5rem;
 }
-.ml-2 {
-  margin-left: 0.5rem;
-}
 .ml-6 {
   margin-left: 1.5rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
 }
 .hover\:opacity-80:hover {
   opacity: 0.8;
@@ -453,6 +460,10 @@ ul {
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+.hover\:text-pink-500:hover {
+  --tw-text-opacity: 1;
+  color: rgba(236, 72, 153, var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
@@ -557,6 +568,18 @@ ul {
   }
 }
 @media (min-width: 1024px) {
+  .lg\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .lg\:flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
   .lg\:max-w-screen-md {
     max-width: 768px;
   }
