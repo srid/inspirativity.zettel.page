@@ -4,8 +4,12 @@ page:
 
 template:
   # name: /templates/layouts/note
-  theme: pink
+  theme: purple
   urlStrategy: pretty
   layout:
     note:
       containerClass: container mx-auto max-w-screen-md
+
+pandoc:
+  rewriteClass:
+    highlight-red: bg-red-200 px-2 py-0.5 rounded-xl
