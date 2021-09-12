@@ -19,7 +19,7 @@
 
   
   <!-- CSSSTART -->
-	<link rel="stylesheet" href="emanote-compiled-39b212d57a6a5d7d010efed385b91c4a.css" />
+	<link rel="stylesheet" href="emanote-compiled-e6898a34359d6848cf7fa09d0ddd388c.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -108,10 +108,20 @@
         
       </ul>
     </div>
+    <button class='inline px-2 py-1 text-white bg-purple-600 outline-none cursor-pointer focus:outline-none' title='Toggle sidebar' type='button' onclick="toggleHidden('sidebar')">
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16'></path>
+      </svg>
+    </button>
+    <script>
+      function toggleHidden(elemId) {
+        document.getElementById(elemId).classList.toggle("hidden");
+      }
+    </script>
   </div>
 </nav>
 
-      <div class='flex flex-nowrap bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
+      <div id='container' class='flex flex-nowrap flex-col md:flex-row bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
         <!-- Sidebar column -->
         <nav id='sidebar' class='flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:w-48 xl:w-64'>
           <div class='px-2 py-2 text-gray-800'>
@@ -517,6 +527,18 @@
     <ul class='space-y-1'>
       
         <li>
+          <a class='header-font font-light text-gray-700 hover:text-purple-500' href='Journal/2021/09/2021-09-11'>
+            2021-09-11
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+              Also, group contexts from same source.
+            -->
+            <div>Same coffee, but tihs time (~8PM now) by accident I ended up using colder than usual water for <a href='aeropress' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Aeropress</a> (I could feel the lack of heat on first sip). Surprisingly there was more a pronounced coffee-y taste (chocolate-y/ nutty) (ie. little to none of that sour/bitter crap that makes drinking coffee resemble humdrum). Maybe water temperature matters more than I had thought, and that it may be worth investing in a variable-temperature kettle?</div>
+          </div>
+        </li>
+      
+        <li>
           <a class='header-font font-light text-gray-700 hover:text-purple-500' href='Journal/2021/09/2021-09-09'>
             2021-09-09
           </a>
@@ -578,7 +600,7 @@
     
       
         <span class='font-mono text-sm tracking-tighter' title='And rendered with /templates/layouts/book'>
-          0.1.51.1
+          0.1.52.0
         </span>
       
     
