@@ -91,6 +91,9 @@ h1 {
   font-weight: inherit;
   margin: 0;
 }
+h1, p, blockquote {
+  margin: 0;
+}
 img {
   border-style: solid;
   max-width: 100%;
@@ -208,6 +211,10 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -219,6 +226,9 @@ ul {
 }
 .border-t-2 {
   border-top-width: 2px;
+}
+.border-l-4 {
+  border-left-width: 4px;
 }
 .cursor-pointer {
   cursor: pointer;
