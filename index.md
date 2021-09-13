@@ -1,9 +1,12 @@
 # Inspirativity
 
-Just a log of my attempts to make *good coffee* (black; no dairy, nothing added):
+**Goal**: Make consistently better [[Tasting Notes|tasting]] coffee, while eliminating [[Fault|mistakes]].
+
+**Current equipment**: [[Aeropress]]; [[Comandante]]; stove-top [[Kettle]] - with [[Beans|these beans]].
+
+## Log
 
 ```query
 path:Journal/*/*/*
 ```
 
-**Goal**: Better [[Tasting Notes|tasting]] coffee; eliminate [[Fault|faults]].
