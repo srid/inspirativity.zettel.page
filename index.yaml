@@ -13,4 +13,9 @@ template:
 pandoc:
   rewriteClass:
     highlight-red: bg-red-200 px-2 py-0.5 rounded-xl
-    highlight-pos: bg-green-200 px-2 py-0.5 rounded-xl
+    highlight-yellow: bg-yellow-200 px-2 py-0.5 rounded-xl
+    highlight-purple: bg-purple-200 px-2 py-0.5 rounded-xl
+    highlight-blue: bg-blue-200 px-2 py-0.5 rounded-xl
+    highlight-green: bg-green-200 px-2 py-0.5 rounded-xl
+    highlight-neg: bg-red-200 px-2 py-0.5 rounded-xl
+    highlight-pos: bg-blue-200 px-2 py-0.5 rounded-xl

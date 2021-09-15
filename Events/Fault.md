@@ -2,4 +2,4 @@
 slug: fault
 ---
 
-# [Fault]{.highlight-red}
+# [Fault]{.highlight-neg}
