@@ -206,6 +206,10 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(191, 219, 254, var(--tw-bg-opacity));
 }
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(167, 243, 208, var(--tw-bg-opacity));
+}
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
@@ -217,10 +221,6 @@ ul {
 .hover\:bg-purple-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(245, 243, 255, var(--tw-bg-opacity));
-}
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(167, 243, 208, var(--tw-bg-opacity));
 }
 .bg-red-200 {
   --tw-bg-opacity: 1;
@@ -370,13 +370,13 @@ ul {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .text-4xl {
   font-size: 2.25rem;
@@ -415,14 +415,14 @@ ul {
 .mb-4 {
   margin-bottom: 1rem;
 }
-.mt-4 {
-  margin-top: 1rem;
-}
 .mt-8 {
   margin-top: 2rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mt-2 {
   margin-top: 0.5rem;
