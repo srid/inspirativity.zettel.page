@@ -230,6 +230,14 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
+.border-purple-200 {
+  --tw-border-opacity: 1;
+  border-color: rgba(221, 214, 254, var(--tw-border-opacity));
+}
+.hover\:border-purple-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+}
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgba(156, 163, 175, var(--tw-border-opacity));
@@ -421,11 +429,11 @@ ul {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mt-4 {
-  margin-top: 1rem;
-}
 .mt-2 {
   margin-top: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
