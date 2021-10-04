@@ -1,5 +1,5 @@
 ---
-slug: tasting-notes
+slug: gustatory
 ---
 
 ```query
