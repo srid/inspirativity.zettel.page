@@ -17,11 +17,14 @@
       <base href='/' />
       <link href='favicon.svg' rel='icon' />
     
-    <meta name='generator' content='Emanote' />
-
+    <script src='https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'></script>
+<script>
+  mermaid.initialize({startOnLoad:false});
+  mermaid.init(undefined,document.querySelectorAll(".mermaid"));
+</script>
   
   <!-- CSSSTART -->
-	<link rel="stylesheet" href="emanote-compiled-284142a9e5fcf6161a967c4c9ed3e6ae.css" />
+	<link rel="stylesheet" href="emanote-compiled-c5aa3a2106144f31e3b09e78eb7608c4.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -762,6 +765,34 @@
       Welcome to <a class='text-purple-800' target='_blank' href='https://www.srid.ca'>Srid</a>'s public journal of coffee making!
   </span>
 </div>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='flex language-flex items-center justify-center mermaid'>%%{init: {'theme': 'forest', "flowchart" : { "curve" : "basis" } } }%%
+graph TD;
+    subgraph Prepare
+    stove[Heat water]--&gt;grindadj[Adjust grind if necessary];
+    end
+    subgraph Grind
+    grindadj--&gt;measure[Measure 15g coffee in scale in Comadante jar];
+    measure--&gt;pour[Pour the coffee in Commandante ensuring top-hole remains clear];
+    pour--&gt;grind[Grind];
+    grind--&gt;tr[Transfer ground coffee to Aeropress];
+    end
+    subgraph Brew
+    tr--&gt;timer[Reset scale and start timer and begin pouring hot water]
+    timer--&gt;mix[At 50g water level mix until 25secs]
+    mix--&gt;w[Pour until 150g]
+    w--&gt;cap[Put paper filter in cap, wet it and screw it on Aeropress]
+    cap--&gt;flip["At 1:25 mark, flip and push until 2:00"]
+    end</code></pre></div>
+    <p class='mb-3'>
+      
+    <label class='inline-flex items-start space-x-2'>
+      <input type='checkbox' class='flex-shrink-0 w-5 h-5' />
+      <span>
+        Clean this up (needs to be a graph than list for one thing).
+      </span>
+    </label>
+  
+    </p>
   
   <!-- What goes in this file will appear below the note body-->
 </article>
